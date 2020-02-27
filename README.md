@@ -10,4 +10,5 @@ By default it is mounted on X:.
 You can change this on line 33 of both .bat files.
 
 ## macOS
+![Swift](https://github.com/IOIIIO/Xiaomi-Boot/workflows/Swift/badge.svg)
 This program only works if your EFI is on the same drive as macOS is running from.

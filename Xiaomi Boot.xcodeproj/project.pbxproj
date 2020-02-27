@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB85A78E240697B200549BE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB85A78D240697B200549BE1 /* AppDelegate.swift */; };
+		EB85A790240697B200549BE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB85A78F240697B200549BE1 /* ViewController.swift */; };
+		EB85A792240697B300549BE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB85A791240697B300549BE1 /* Assets.xcassets */; };
+		EB85A795240697B300549BE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB85A793240697B300549BE1 /* Main.storyboard */; };
+		EB85A7A1240697B300549BE1 /* Xiaomi_BootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB85A7A0240697B300549BE1 /* Xiaomi_BootTests.swift */; };
+		EB85A7AC240697B300549BE1 /* Xiaomi_BootUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB85A7AB240697B300549BE1 /* Xiaomi_BootUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB85A79D240697B300549BE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB85A782240697B100549BE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB85A789240697B100549BE1;
+			remoteInfo = "Xiaomi Boot";
+		};
+		EB85A7A8240697B300549BE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB85A782240697B100549BE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB85A789240697B100549BE1;
+			remoteInfo = "Xiaomi Boot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB2FC8AF2407630C00D9C8A2 /* Xiaomi BootRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Xiaomi BootRelease.entitlements"; sourceTree = "<group>"; };
+		EB85A78A240697B100549BE1 /* Xiaomi Boot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xiaomi Boot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB85A78D240697B200549BE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB85A78F240697B200549BE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB85A791240697B300549BE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB85A794240697B300549BE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB85A796240697B300549BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB85A797240697B300549BE1 /* Xiaomi_Boot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Xiaomi_Boot.entitlements; sourceTree = "<group>"; };
+		EB85A79C240697B300549BE1 /* Xiaomi BootTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xiaomi BootTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB85A7A0240697B300549BE1 /* Xiaomi_BootTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xiaomi_BootTests.swift; sourceTree = "<group>"; };
+		EB85A7A2240697B300549BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB85A7A7240697B300549BE1 /* Xiaomi BootUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xiaomi BootUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB85A7AB240697B300549BE1 /* Xiaomi_BootUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xiaomi_BootUITests.swift; sourceTree = "<group>"; };
+		EB85A7AD240697B300549BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB85A787240697B100549BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB85A799240697B300549BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB85A7A4240697B300549BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB85A781240697B100549BE1 = {
+			isa = PBXGroup;
+			children = (
+				EB85A78C240697B200549BE1 /* Xiaomi Boot */,
+				EB85A79F240697B300549BE1 /* Xiaomi BootTests */,
+				EB85A7AA240697B300549BE1 /* Xiaomi BootUITests */,
+				EB85A78B240697B100549BE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB85A78B240697B100549BE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB85A78A240697B100549BE1 /* Xiaomi Boot.app */,
+				EB85A79C240697B300549BE1 /* Xiaomi BootTests.xctest */,
+				EB85A7A7240697B300549BE1 /* Xiaomi BootUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB85A78C240697B200549BE1 /* Xiaomi Boot */ = {
+			isa = PBXGroup;
+			children = (
+				EB2FC8AF2407630C00D9C8A2 /* Xiaomi BootRelease.entitlements */,
+				EB85A78D240697B200549BE1 /* AppDelegate.swift */,
+				EB85A78F240697B200549BE1 /* ViewController.swift */,
+				EB85A791240697B300549BE1 /* Assets.xcassets */,
+				EB85A793240697B300549BE1 /* Main.storyboard */,
+				EB85A796240697B300549BE1 /* Info.plist */,
+				EB85A797240697B300549BE1 /* Xiaomi_Boot.entitlements */,
+			);
+			path = "Xiaomi Boot";
+			sourceTree = "<group>";
+		};
+		EB85A79F240697B300549BE1 /* Xiaomi BootTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB85A7A0240697B300549BE1 /* Xiaomi_BootTests.swift */,
+				EB85A7A2240697B300549BE1 /* Info.plist */,
+			);
+			path = "Xiaomi BootTests";
+			sourceTree = "<group>";
+		};
+		EB85A7AA240697B300549BE1 /* Xiaomi BootUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB85A7AB240697B300549BE1 /* Xiaomi_BootUITests.swift */,
+				EB85A7AD240697B300549BE1 /* Info.plist */,
+			);
+			path = "Xiaomi BootUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB85A789240697B100549BE1 /* Xiaomi Boot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB85A7B0240697B300549BE1 /* Build configuration list for PBXNativeTarget "Xiaomi Boot" */;
+			buildPhases = (
+				EB85A786240697B100549BE1 /* Sources */,
+				EB85A787240697B100549BE1 /* Frameworks */,
+				EB85A788240697B100549BE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xiaomi Boot";
+			productName = "Xiaomi Boot";
+			productReference = EB85A78A240697B100549BE1 /* Xiaomi Boot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB85A79B240697B300549BE1 /* Xiaomi BootTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB85A7B3240697B300549BE1 /* Build configuration list for PBXNativeTarget "Xiaomi BootTests" */;
+			buildPhases = (
+				EB85A798240697B300549BE1 /* Sources */,
+				EB85A799240697B300549BE1 /* Frameworks */,
+				EB85A79A240697B300549BE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB85A79E240697B300549BE1 /* PBXTargetDependency */,
+			);
+			name = "Xiaomi BootTests";
+			productName = "Xiaomi BootTests";
+			productReference = EB85A79C240697B300549BE1 /* Xiaomi BootTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB85A7A6240697B300549BE1 /* Xiaomi BootUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB85A7B6240697B300549BE1 /* Build configuration list for PBXNativeTarget "Xiaomi BootUITests" */;
+			buildPhases = (
+				EB85A7A3240697B300549BE1 /* Sources */,
+				EB85A7A4240697B300549BE1 /* Frameworks */,
+				EB85A7A5240697B300549BE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB85A7A9240697B300549BE1 /* PBXTargetDependency */,
+			);
+			name = "Xiaomi BootUITests";
+			productName = "Xiaomi BootUITests";
+			productReference = EB85A7A7240697B300549BE1 /* Xiaomi BootUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB85A782240697B100549BE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "J P";
+				TargetAttributes = {
+					EB85A789240697B100549BE1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EB85A79B240697B300549BE1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EB85A789240697B100549BE1;
+					};
+					EB85A7A6240697B300549BE1 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EB85A789240697B100549BE1;
+					};
+				};
+			};
+			buildConfigurationList = EB85A785240697B100549BE1 /* Build configuration list for PBXProject "Xiaomi Boot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB85A781240697B100549BE1;
+			productRefGroup = EB85A78B240697B100549BE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB85A789240697B100549BE1 /* Xiaomi Boot */,
+				EB85A79B240697B300549BE1 /* Xiaomi BootTests */,
+				EB85A7A6240697B300549BE1 /* Xiaomi BootUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB85A788240697B100549BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB85A792240697B300549BE1 /* Assets.xcassets in Resources */,
+				EB85A795240697B300549BE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB85A79A240697B300549BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB85A7A5240697B300549BE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB85A786240697B100549BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB85A790240697B200549BE1 /* ViewController.swift in Sources */,
+				EB85A78E240697B200549BE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB85A798240697B300549BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB85A7A1240697B300549BE1 /* Xiaomi_BootTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB85A7A3240697B300549BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB85A7AC240697B300549BE1 /* Xiaomi_BootUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB85A79E240697B300549BE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB85A789240697B100549BE1 /* Xiaomi Boot */;
+			targetProxy = EB85A79D240697B300549BE1 /* PBXContainerItemProxy */;
+		};
+		EB85A7A9240697B300549BE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB85A789240697B100549BE1 /* Xiaomi Boot */;
+			targetProxy = EB85A7A8240697B300549BE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB85A793240697B300549BE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB85A794240697B300549BE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB85A7AE240697B300549BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB85A7AF240697B300549BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EB85A7B1240697B300549BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Xiaomi Boot/Xiaomi_Boot.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VX3F72J6A5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Xiaomi Boot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "meow.IOIIIO.Xiaomi-Boot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB85A7B2240697B300549BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Xiaomi Boot/Xiaomi BootRelease.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VX3F72J6A5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Xiaomi Boot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "meow.IOIIIO.Xiaomi-Boot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EB85A7B4240697B300549BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VX3F72J6A5;
+				INFOPLIST_FILE = "Xiaomi BootTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "meow.IOIIIO.Xiaomi-BootTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xiaomi Boot.app/Contents/MacOS/Xiaomi Boot";
+			};
+			name = Debug;
+		};
+		EB85A7B5240697B300549BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VX3F72J6A5;
+				INFOPLIST_FILE = "Xiaomi BootTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "meow.IOIIIO.Xiaomi-BootTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xiaomi Boot.app/Contents/MacOS/Xiaomi Boot";
+			};
+			name = Release;
+		};
+		EB85A7B7240697B300549BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VX3F72J6A5;
+				INFOPLIST_FILE = "Xiaomi BootUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "meow.IOIIIO.Xiaomi-BootUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Xiaomi Boot";
+			};
+			name = Debug;
+		};
+		EB85A7B8240697B300549BE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VX3F72J6A5;
+				INFOPLIST_FILE = "Xiaomi BootUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "meow.IOIIIO.Xiaomi-BootUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Xiaomi Boot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB85A785240697B100549BE1 /* Build configuration list for PBXProject "Xiaomi Boot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB85A7AE240697B300549BE1 /* Debug */,
+				EB85A7AF240697B300549BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB85A7B0240697B300549BE1 /* Build configuration list for PBXNativeTarget "Xiaomi Boot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB85A7B1240697B300549BE1 /* Debug */,
+				EB85A7B2240697B300549BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB85A7B3240697B300549BE1 /* Build configuration list for PBXNativeTarget "Xiaomi BootTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB85A7B4240697B300549BE1 /* Debug */,
+				EB85A7B5240697B300549BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB85A7B6240697B300549BE1 /* Build configuration list for PBXNativeTarget "Xiaomi BootUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB85A7B7240697B300549BE1 /* Debug */,
+				EB85A7B8240697B300549BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB85A782240697B100549BE1 /* Project object */;
+}
